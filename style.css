@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#search-area {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+#search-area input {
+  width: 30vh;
+}
+
+#display {
+  margin: 10px 20px;
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+li .animalItem {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.delete {
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+  color: red;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: 20px;
+}
